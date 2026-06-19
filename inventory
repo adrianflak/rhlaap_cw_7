@@ -1,2 +1,2 @@
-[local]
-localhost ansible_connection=local ansible_python_interpreter=/usr/libexec/platform-python
+[servers]
+redhat-aap-vm3 ansible_host=20.215.203.35 ansible_user=kursant ansible_become=true
