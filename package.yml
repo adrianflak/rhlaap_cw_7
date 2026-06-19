@@ -5,5 +5,5 @@
   tasks:
     - name: Install selected package
       ansible.builtin.command:
-        name:  "dnf install -y {{ package_name }}"
-        state: present
+        cmd:  "dnf install -y {{ package_name }}"
+
