@@ -4,6 +4,6 @@
   become: true
   tasks:
     - name: Install selected package
-      ansible.builtin.package:
-        name: "{{ package_name }}"
+      ansible.builtin.command:
+        name:  "dnf install -y {{ package_name }}"
         state: present
