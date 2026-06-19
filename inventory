@@ -1,2 +1,2 @@
 [servers]
-redhat-aap-vm3 ansible_host=20.215.203.35 ansible_user=kursant ansible_become=true
+redhat-aap-vm3 ansible_host=20.215.203.35 ansible_user=kursant ansible_passwword=Kursant1234#* ansible_become=true
